@@ -1,7 +1,7 @@
 import random
 from hangman_words import *
 
-print(r'''
+print('''
  _                                             
 | |                                            
 | |__   __ _ _ __   __ _ _ __ ___   __ _ _ __  
@@ -46,7 +46,7 @@ while True:
         cnt -= 1
         if not cnt:
             print("You lose. ;_;")
-            print(stages[0])
+            print(stages[cnt])
             break
         print(stages[cnt])
 
