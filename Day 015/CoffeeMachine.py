@@ -25,7 +25,7 @@ while True:
         
         if money >= MENU[cmd]['Money']:
             money = getOrder(MENU[cmd], money)
-            print(f"Here is ${money:.2f} in change.")
+            print(f"Here is ${round(money,2)} in change.")
             print(f"Here is your {cmd}. Enjoy! ^_^")
         else:
             print("Sorry that's not enough money. Money refunded.")
