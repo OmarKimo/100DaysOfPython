@@ -1,5 +1,4 @@
 # 1. Create a greeting for your program.
-
 print("Welcome to My Band Name Generator. ^_^")
 
 # 2. Ask the user for the city that they grow up in.
