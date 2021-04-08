@@ -7,7 +7,15 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ").lower(
     os.system('cls' if os.name == 'nt' else 'clear')
     # ascii art
     print('''
-    ''')
+.------.            _     _            _    _            _    
+|A_  _ |.          | |   | |          | |  (_)          | |   
+|( \/ ).-----.     | |__ | | __ _  ___| | ___  __ _  ___| | __
+| \  /|K /\  |     | '_ \| |/ _` |/ __| |/ / |/ _` |/ __| |/ /
+|  \/ | /  \ |     | |_) | | (_| | (__|   <| | (_| | (__|   < 
+`-----| \  / |     |_.__/|_|\__,_|\___|_|\_\ |\__,_|\___|_|\_\\
+      |  \/ K|                            _/ |                
+      `------'                           |__/           
+''')
     
     user_cards = random.choices(cards, k = 2)
     com_cards = random.choices(cards, k = 2)

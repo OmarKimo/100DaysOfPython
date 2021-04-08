@@ -8,8 +8,22 @@ def printData(dic):
 
 # ascii art
 logo = '''
+    __  ___       __             
+   / / / (_)___ _/ /_  ___  _____
+  / /_/ / / __ `/ __ \/ _ \/ ___/
+ / __  / / /_/ / / / /  __/ /    
+/_/ ///_/\__, /_/ /_/\___/_/     
+   / /  /____/_      _____  _____
+  / /   / __ \ | /| / / _ \/ ___/
+ / /___/ /_/ / |/ |/ /  __/ /    
+/_____/\____/|__/|__/\___/_/   
 '''
 vsart = '''
+ _    __    
+| |  / /____
+| | / / ___/
+| |/ (__  ) 
+|___/____(_)
 '''
 
 
@@ -22,7 +36,7 @@ while True:
     if over:
         print(f"Sorry, that's wrong. Final score: {cnt}")
         break
-    else:
+    elif c2:
         print(f"You're right! Current score: {cnt}")
     c1 = c2
     if not c1:
