@@ -31,8 +31,9 @@
   * **Day 22: [Pong Game](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20022)**
   * **Day 23: [Turtle Crossing - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20023%20-%20Capstone)**
   * **Day 24: [Mail Merge](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20024)**
-
-<!---  * **Day 25**
+  * **Day 25: [U.S. Game](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20025)**
+  
+<!---  
   * **Day 26**
   * **Day 27**
   * **Day 28**
