@@ -32,9 +32,9 @@
   * **Day 23: [Turtle Crossing - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20023%20-%20Capstone)**
   * **Day 24: [Mail Merge](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20024)**
   * **Day 25: [U.S. Game](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20025)**
+  * **Day 26: [NATO Phonetic Alphabet](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20026)**
   
 <!---  
-  * **Day 26**
   * **Day 27**
   * **Day 28**
   * **Day 29**
