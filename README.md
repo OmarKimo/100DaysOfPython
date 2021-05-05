@@ -34,9 +34,10 @@
   * **Day 25: [U.S. Game](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20025)**
   * **Day 26: [NATO Phonetic Alphabet](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20026)**
   * **Day 27: [Mile to Km Converter - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20027)**
-
+  * **Day 28: [Pomodoro Technique - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20028)**
+  
 <!---  
-  * **Day 28**
+  
   * **Day 29**
   * **Day 30**
   * **Day 31**
