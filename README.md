@@ -36,9 +36,10 @@
   * **Day 27: [Mile to Km Converter - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20027)**
   * **Day 28: [Pomodoro Technique - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20028)**
   * **Day 29: [Password Manager - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029)**
-  
+  * ***Day 30* was just an enhancement to [Day 29](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029) project**
+
 <!---  
-  * **Day 30**
+  
   * **Day 31**
 </br>
 
