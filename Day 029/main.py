@@ -38,7 +38,7 @@ def save():
         title=website, message=f"Email: {email}\nPassword:{password}\nIs this ok?"
     ):
         return
-    with open("auth_data.txt", "w+") as f:
+    with open("Day 029/auth_data.txt", "w+") as f:
         f.write(f"{website} | {email} | {password}")
 
 
@@ -48,7 +48,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50)
 
 canvas = tk.Canvas(width=200, height=200, highlightthickness=0)
-bg = tk.PhotoImage(file="./logo.png")
+bg = tk.PhotoImage(file="Day 029/logo.png")
 canvas.create_image(100, 100, image=bg)
 canvas.grid(column=2, row=1)
 
