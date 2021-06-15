@@ -37,13 +37,10 @@
   * **Day 28: [Pomodoro Technique - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20028)**
   * **Day 29: [Password Manager - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029)**
   * ***Day 30* was just an enhancement to [Day 29](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029) project**
-
-<!---  
+  * **Day 31: [Flash Card App - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20031%20-%20Capstone)**
   
-  * **Day 31**
-</br>
-
-* **Intermediate+**
+<!---  
+  * **Intermediate+**
 
 </br>
 
