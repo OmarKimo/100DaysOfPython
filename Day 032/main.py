@@ -5,7 +5,7 @@ from datetime import datetime
 import smtplib
 import os
 
-LETTERS_DIR = "Day 032/letter_templates"
+LETTERS_DIR = "letter_templates"
 MY_EMAIL = "omarkimo80@gmail.com"
 MY_PASS = r"XBK&ta9j@DbcL8#a!rDSYRGgd7Ekm^Pj$8Z9u%B6UtzJVaE7xE"
 
@@ -13,7 +13,7 @@ MY_PASS = r"XBK&ta9j@DbcL8#a!rDSYRGgd7Ekm^Pj$8Z9u%B6UtzJVaE7xE"
 
 # 2. Check if today matches a birthday in the birthdays.csv
 today = datetime.now()
-df = pd.read_csv("Day 032/birthdays.csv")
+df = pd.read_csv("birthdays.csv")
 dic = df.to_dict(orient="records")
 # print(dic)
 filter_fun = lambda dic: dic["month"] == today.month and dic["day"] == today.day

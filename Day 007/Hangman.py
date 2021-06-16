@@ -1,5 +1,5 @@
 import random
-from hangman_words import *
+from hangman_words import stages, words
 
 print('''
  _                                             

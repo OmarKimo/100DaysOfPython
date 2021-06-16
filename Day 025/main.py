@@ -3,7 +3,7 @@ import pandas
 
 ALIGN = "center"
 
-data = pandas.read_csv("Day 025/50_states.csv")
+data = pandas.read_csv("50_states.csv")
 
 cnt_states = len(data)
 cnt_ans = 0
@@ -11,7 +11,7 @@ answered = {}
 
 screen = Screen()
 screen.setup(width=730, height=500)
-screen.bgpic("Day 025/blank_states_img.gif")
+screen.bgpic("blank_states_img.gif")
 
 while cnt_ans < cnt_states:
     ans = screen.textinput(

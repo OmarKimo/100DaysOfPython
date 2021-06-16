@@ -1,5 +1,5 @@
 import pandas
-alpha = pandas.read_csv("Day 026/nato_phonetic_alphabet.csv")
+alpha = pandas.read_csv("nato_phonetic_alphabet.csv")
 
 nato_dict = {row.letter:row.code for _, row in alpha.iterrows()}
 

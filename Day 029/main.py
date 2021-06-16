@@ -43,7 +43,7 @@ def save():
         return
     data = {}
     try:
-        with open("Day 029/auth_data.json", "r+") as json_file:
+        with open("auth_data.json", "r+") as json_file:
             try:
                 data = json.load(json_file)
             except JSONDecodeError:
@@ -52,7 +52,7 @@ def save():
             json_file.seek(0)
             json.dump(data, json_file)
     except FileNotFoundError:
-        with open("Day 029/auth_data.json", "w") as json_file:
+        with open("auth_data.json", "w") as json_file:
             data[website] = {"email": email, "password": password}
             json.dump(data, json_file)
     finally:
@@ -69,7 +69,7 @@ def search():
         return
     data = {}
     try:
-        with open("Day 029/auth_data.json") as json_file:
+        with open("auth_data.json") as json_file:
             try:
                 data = json.load(json_file)
             except JSONDecodeError:
@@ -94,7 +94,7 @@ window.title("Password Manager")
 window.config(padx=50, pady=50)
 
 canvas = tk.Canvas(width=200, height=200, highlightthickness=0)
-bg = tk.PhotoImage(file="Day 029/logo.png")
+bg = tk.PhotoImage(file="logo.png")
 canvas.create_image(100, 100, image=bg)
 canvas.grid(column=2, row=1)
 

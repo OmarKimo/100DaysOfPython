@@ -36,9 +36,9 @@ def on_true():
 
 words = None
 try:
-    words = pandas.read_csv("Day 031/data/words_to_learn.csv")
+    words = pandas.read_csv("data/words_to_learn.csv")
 except FileNotFoundError:
-    words = pandas.read_csv("Day 031/data/french_words.csv")
+    words = pandas.read_csv("data/french_words.csv")
 
 french_dict = {row.French:row.English for _, row in words.iterrows()}
 #english_dict = {row.English:row.French for _, row in words.iterrows()}
@@ -51,18 +51,18 @@ window.title("Flashy")
 window.config(padx=50, pady=50, background=BACKGROUND_COLOR)
     
 canvas = tk.Canvas(height=526, width=800, background=BACKGROUND_COLOR, highlightthickness=0)
-front_img = tk.PhotoImage(file="Day 031/images/card_front.png")
-back_img = tk.PhotoImage(file="Day 031/images/card_back.png")
+front_img = tk.PhotoImage(file="images/card_front.png")
+back_img = tk.PhotoImage(file="images/card_back.png")
 image_container = canvas.create_image(400, 263, image=front_img)
 text1_container = canvas.create_text(400, 150, text="French", font=("Ariel", 40, "italic"))
 text2_container = canvas.create_text(400, 263, text=current_word, font=("Ariel", 60, "bold"))
 canvas.grid(row=1, column=1, columnspan=2)
 
-img1 = tk.PhotoImage(file="Day 031/images/wrong.png")
+img1 = tk.PhotoImage(file="images/wrong.png")
 b1 = tk.Button(window, image=img1, command=on_false, background=BACKGROUND_COLOR, highlightthickness=0)
 b1.grid(row=2,column=1)
 
-img2 = tk.PhotoImage(file="Day 031/images/right.png")
+img2 = tk.PhotoImage(file="images/right.png")
 b2 = tk.Button(window, image=img2, command=on_true, background=BACKGROUND_COLOR, highlightthickness=0)
 b2.grid(row=2,column=2)
 
@@ -73,5 +73,5 @@ window.mainloop()
 # save unknown words to words_to_learn.csv
 df = pandas.DataFrame({"French": list(french_dict.keys()), "English": list(french_dict.values())})
 #print(df)
-df.to_csv("Day 031/data/words_to_learn.csv", index=False)
+df.to_csv("data/words_to_learn.csv", index=False)
 #print("finished")
