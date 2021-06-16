@@ -38,17 +38,15 @@
   * **Day 29: [Password Manager - GUI](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029)**
   * ***Day 30* was just an enhancement to [Day 29](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20029) project**
   * **Day 31: [Flash Card App - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20031%20-%20Capstone)**
+</br>
+
+* **Intermediate+**
+  * **Day 32: [Automated Birthday Wisher](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20032)**
   
 <!---  
-  * **Intermediate+**
-
-</br>
 
 * **Advanced**
 
-</br>
-
 * **Professional Portfolio Project**
 
-</br>
 -->
