@@ -1,10 +1,9 @@
-from typing import List
 from question_model import Question
 import random
 
 
 class Quiz:
-    def __init__(self, questions: List[Question]) -> None:
+    def __init__(self, questions):
         self.score = 0
         self.question_bank = questions
         random.shuffle(self.question_bank)

@@ -43,7 +43,8 @@
 * **Intermediate+**
   * **Day 32: [Automated Birthday Wisher](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20032)**
   * **Day 33: [ISS Overhead Notifier](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20033)**
-  
+  * **Day 34: [GUI Quiz App - Trivia API](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20034)**
+
 <!---  
 
 * **Advanced**
