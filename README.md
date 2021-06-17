@@ -46,6 +46,7 @@
   * **Day 34: [GUI Quiz App - Trivia API](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20034)**
   * **Day 35: [Rain Alert through SMS](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20035)**
   * **Day 36: [Stock Trading News Alert](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20036)**
+  * **Day 37: [Habit Tracker](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20037)**
 
 <!---  
 
