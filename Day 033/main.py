@@ -2,11 +2,13 @@ import requests
 from datetime import datetime
 import smtplib
 from time import sleep
+import os
 
 MY_LAT = 30.047020  # Nahia latitude
 MY_LONG = 31.130740  # Nahia longitude
 MY_EMAIL = "omarkimo80@gmail.com"
-MY_PASS = r"XBK&ta9j@DbcL8#a!rDSYRGgd7Ekm^Pj$8Z9u%B6UtzJVaE7xE"
+MY_PASS = os.environ["MY_PASS"][1:-1]
+#print(MY_PASS)
 
 def is_iss_overhead():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
