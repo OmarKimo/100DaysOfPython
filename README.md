@@ -48,8 +48,9 @@
   * **Day 36: [Stock Trading News Alert](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20036)**
   * **Day 37: [Habit Tracking Project](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20037)**
   * **Day 38: [Workout Tracking using Google Sheets](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20038)**
+  * **Day 39-40: [Flight Deal Finder - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20039-040%20-%20Capstone)**
 
-<!---  
+  <!---  
 
 * **Advanced**
 

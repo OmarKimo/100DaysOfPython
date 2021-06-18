@@ -7,7 +7,7 @@ import os
 
 LETTERS_DIR = "letter_templates"
 MY_EMAIL = "omarkimo80@gmail.com"
-MY_PASS = os.environ["MY_PASS"][1:-1]
+MY_PASS = os.environ["MY_PASS"]
 #print(MY_PASS)
 
 # 1. Update the birthdays.csv

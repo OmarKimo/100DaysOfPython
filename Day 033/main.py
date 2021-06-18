@@ -7,7 +7,7 @@ import os
 MY_LAT = 30.047020  # Nahia latitude
 MY_LONG = 31.130740  # Nahia longitude
 MY_EMAIL = "omarkimo80@gmail.com"
-MY_PASS = os.environ["MY_PASS"][1:-1]
+MY_PASS = os.environ["MY_PASS"]
 #print(MY_PASS)
 
 def is_iss_overhead():
