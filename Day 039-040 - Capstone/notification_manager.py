@@ -22,7 +22,6 @@ class NotificationManager:
     def notify_email(self, flight, users):
         MY_EMAIL = "omarkimo80@gmail.com"
         MY_PASS = os.environ["MY_PASS"]
-        print(MY_PASS)
         flight_link = f"https://www.google.co.uk/flights?hl=en#flt={flight['flyFrom']}.{flight['flyTo']}.{flight['dateFrom']}*{flight['flyTo']}.{flight['flyFrom']}.{flight['dateTo']}"
         for user in users:
             with smtplib.SMTP("smtp.gmail.com") as connection:

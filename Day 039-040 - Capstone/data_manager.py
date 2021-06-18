@@ -32,6 +32,7 @@ class DataManager:
 
     def get_user_data(self):
         response = requests.get(url=self.users_endpoint, headers=self.sheety_header)
+        response.raise_for_status()
         # print(response.json())
         return response.json()["users"]
 
