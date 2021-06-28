@@ -53,6 +53,7 @@
   * **Day 45: [Scraping Top 100 Movies Website](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20045)**
   * **Day 46: [Music Time Machine - create Spotify Playlist](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20046)**
   * **Day 47: [Amazon Price Tracker](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20047)**
+  * **Day 48: [Cookie Clicker Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20048)**
 
 <!---  
 
