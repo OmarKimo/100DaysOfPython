@@ -51,6 +51,7 @@
   * **Day 39-40: [Flight Deal Finder - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20039-040%20-%20Capstone)**
   * **Day 41-44: [Personal Site - HTML & CSS](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20041-044)**
   * **Day 45: [Scraping Top 100 Movies Website](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20045)**
+  * **Day 46: [Music Time Machine - create Spotify Playlist](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20046)**
 
 <!---  
 
