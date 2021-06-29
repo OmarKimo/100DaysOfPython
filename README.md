@@ -55,6 +55,7 @@
   * **Day 47: [Amazon Price Tracker](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20047)**
   * **Day 48: [Cookie Clicker Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20048)**
   * **Day 49: [Auto Job Application on LinkedIn](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20049)**
+  * **Day 50: [Auto Tinder Swiping Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20050)**
 
 <!---  
 
