@@ -1,6 +1,6 @@
 import requests
 import os
-from datetime import date, datetime
+from datetime import datetime
 
 Nutritionix_APP_ID = os.environ["Nutritionix_APP_ID"]
 Nutritionix_API_KEY = os.environ["Nutritionix_API_KEY"]
