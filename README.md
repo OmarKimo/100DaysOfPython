@@ -58,6 +58,7 @@
   * **Day 50: [Auto Tinder Swiping Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20050)**
   * **Day 51: [Internet Speed Twitter Complaint Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20051)**
   * **Day 52: [Instagram Follower Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20052)**
+  * **Day 53: [Data Entry Job Automation - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20053%20-%20Capstone)**
 
 <!---  
 
