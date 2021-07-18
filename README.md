@@ -57,6 +57,7 @@
   * **Day 49: [Auto Job Application on LinkedIn](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20049)**
   * **Day 50: [Auto Tinder Swiping Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20050)**
   * **Day 51: [Internet Speed Twitter Complaint Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20051)**
+  * **Day 52: [Instagram Follower Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20052)**
 
 <!---  
 
