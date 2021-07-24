@@ -20,7 +20,7 @@ class InternetSpeedTwitterBot:
         sleep(TIMEOUT)
         start_but = self.driver.find_element_by_class_name("js-start-test")
         start_but.click()
-        sleep(15 * TIMEOUT)
+        sleep(12 * TIMEOUT)
         download_result = self.driver.find_element_by_class_name("download-speed")
         upload_result = self.driver.find_element_by_class_name("upload-speed")
         print(download_result.text)
