@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 TIMEOUT = 5
 INSTAGRAM_EMAIL = os.environ["INSTAGRAM_EMAIL"]
 INSTAGRAM_PASS = os.environ["INSTAGRAM_PASS"]
-TEST_NUMBER = 10
+TEST_NUMBER = 5
 
 
 class InstaFollower:

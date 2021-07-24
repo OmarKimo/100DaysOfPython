@@ -20,19 +20,32 @@ class InternetSpeedTwitterBot:
         sleep(TIMEOUT)
         start_but = self.driver.find_element_by_class_name("js-start-test")
         start_but.click()
-        sleep(10 * TIMEOUT)
-        self.down = float(self.driver.find_element_by_class_name("download-speed").text)
-        self.up = float(self.driver.find_element_by_class_name("upload-speed").text)
+        sleep(15 * TIMEOUT)
+        download_result = self.driver.find_element_by_class_name("download-speed")
+        upload_result = self.driver.find_element_by_class_name("upload-speed")
+        print(download_result.text)
+        print(upload_result.text)
+        self.down = float(download_result.text)
+        self.up = float(upload_result.text)
 
     def tweet_at_provider(self):
         tweet = f"Hey @EtisalatMisr, why is my internet speed {self.down}down/{self.up}up when I pay for {PROMISED_DOWN}down/{PROMISED_UP}up?"
         self.driver.get("https://twitter.com/login")
         sleep(TIMEOUT)
-        username = self.driver.find_element_by_name("session[username_or_email]")
-        username.send_keys(TWITTER_EMAIL)
-        password = self.driver.find_element_by_name("session[password]")
-        password.send_keys(TWITTER_PASS)
-        password.send_keys(Keys.ENTER)
+        try:
+            username = self.driver.find_element_by_name("username")
+            username.send_keys(TWITTER_EMAIL)
+        except:
+            username = self.driver.find_element_by_name("session[username_or_email]")
+            username.send_keys(TWITTER_EMAIL)
+        try:
+            password = self.driver.find_element_by_name("password")
+            password.send_keys(TWITTER_PASS)
+            password.send_keys(Keys.ENTER)
+        except:
+            password = self.driver.find_element_by_name("session[password]")
+            password.send_keys(TWITTER_PASS)
+            password.send_keys(Keys.ENTER)
         sleep(TIMEOUT)
         editor = self.driver.find_element_by_class_name("public-DraftEditor-content")
         editor.send_keys(tweet)
