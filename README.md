@@ -60,6 +60,7 @@
   * **Day 52: [Instagram Follower Bot](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20052)**
   * **Day 53: [Data Entry Job Automation - Capstone](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20053%20-%20Capstone)**
   * **Day 54: [Python Decorators Challenge](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20054)**
+  * **Day 55: [Guess The Number Game using URLs - Flask](https://github.com/OmarKimo/100DaysOfPython/tree/master/Day%20055)**
 
 <!---  
 
